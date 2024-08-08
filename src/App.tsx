@@ -1,4 +1,4 @@
-import { Container, Main, RatingForm, ThankYouMessage } from './components'
+import { Main, RatingForm, ThankYouMessage } from './components'
 import { UseAppSelector } from './store'
 
 export default function App() {

@@ -17,7 +17,7 @@ export default function RatingForm() {
         if (disabled && rating.rating !== 0) {
             setDisabled(false)
         }
-    }, [rating.rating])
+    }, [rating.rating, disabled])
 
     return (
         <Container className='relative bg-gradient-to-b from-[#232A34] to-[#181E27] max-w-[412px] w-[calc(100%-24px)] min-h-[360px] mx-[24px] rounded-3xl flex flex-col justify-between p-[24px]'>
